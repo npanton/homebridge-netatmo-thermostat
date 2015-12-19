@@ -95,8 +95,8 @@ HeatingAccessory.prototype.getCurrentTemperature = function(callback) {
   
   
   var options = {
-    device_id: '70:ee:50:04:3c:78',
-    module_id: '04:00:00:06:18:58',
+    device_id: 'CHANGE ME',
+    module_id: 'CHANGE ME',
   };
 
   this.api.getThermstate(options, function(err, result) {
